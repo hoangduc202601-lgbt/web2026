@@ -146,37 +146,37 @@ export default function Header() {
           </ul>
 
           <ul className="main-menu-m">
-            <MobileMenuItem title="Tin tức" href="/category/tin-tuc" subItems={[
-              { title: 'Chính trị', href: '/category/tin-tuc/chinh-tri' },
-              { title: 'Kinh tế', href: '/category/tin-tuc/kinh-te' }
+            <MobileMenuItem title="Tin tức" href="/danh-muc/tin-tuc" subItems={[
+              { title: 'Chính trị', href: '/danh-muc/tin-tuc/chinh-tri' },
+              { title: 'Kinh tế', href: '/danh-muc/tin-tuc/kinh-te' }
             ]} onLinkClick={() => setMobileMenuOpen(false)} />
-            <MobileMenuItem title="Sức khỏe cộng đồng" href="/category/suc-khoe-cong-dong" subItems={[
-              { title: 'Tư vấn', href: '/category/suc-khoe-cong-dong/tu-van' },
-              { title: 'Sống khỏe', href: '/category/suc-khoe-cong-dong/song-khoe' }
+            <MobileMenuItem title="Sức khỏe cộng đồng" href="/danh-muc/suc-khoe-cong-dong" subItems={[
+              { title: 'Tư vấn', href: '/danh-muc/suc-khoe-cong-dong/tu-van' },
+              { title: 'Sống khỏe', href: '/danh-muc/suc-khoe-cong-dong/song-khoe' }
             ]} onLinkClick={() => setMobileMenuOpen(false)} />
-            <MobileMenuItem title="Văn hóa" href="/category/van-hoa" onLinkClick={() => setMobileMenuOpen(false)} />
-            <MobileMenuItem title="Xã hội" href="/category/xa-hoi" subItems={[
-              { title: 'Pháp luật', href: '/category/xa-hoi/phap-luat' },
-              { title: 'An ninh xã hội', href: '/category/xa-hoi/an-ninh-xa-hoi' }
+            <MobileMenuItem title="Văn hóa" href="/danh-muc/van-hoa" onLinkClick={() => setMobileMenuOpen(false)} />
+            <MobileMenuItem title="Xã hội" href="/danh-muc/xa-hoi" subItems={[
+              { title: 'Pháp luật', href: '/danh-muc/xa-hoi/phap-luat' },
+              { title: 'An ninh xã hội', href: '/danh-muc/xa-hoi/an-ninh-xa-hoi' }
             ]} onLinkClick={() => setMobileMenuOpen(false)} />
-            <MobileMenuItem title="Y học cổ truyền" href="/category/y-hoc-co-truyen" subItems={[
-              { title: 'Các bài thuốc', href: '/category/y-hoc-co-truyen/cac-bai-thuoc' },
-              { title: 'Chân dung nhân vật', href: '/category/y-hoc-co-truyen/chan-dung-nhan-vat' }
+            <MobileMenuItem title="Y học cổ truyền" href="/danh-muc/y-hoc-co-truyen" subItems={[
+              { title: 'Các bài thuốc', href: '/danh-muc/y-hoc-co-truyen/cac-bai-thuoc' },
+              { title: 'Chân dung nhân vật', href: '/danh-muc/y-hoc-co-truyen/chan-dung-nhan-vat' }
             ]} onLinkClick={() => setMobileMenuOpen(false)} />
-            <MobileMenuItem title="Khoa học công nghệ" href="/category/khoa-hoc-cong-nghe" onLinkClick={() => setMobileMenuOpen(false)} />
-            <MobileMenuItem title="Hợp tác liên kết" href="/category/hop-tac-lien-ket" subItems={[
-              { title: 'Hợp tác liên kết', href: '/category/hop-tac-lien-ket' },
-              { title: 'Đào tạo', href: '/category/hop-tac-lien-ket/dao-tao' }
+            <MobileMenuItem title="Khoa học công nghệ" href="/danh-muc/khoa-hoc-cong-nghe" onLinkClick={() => setMobileMenuOpen(false)} />
+            <MobileMenuItem title="Hợp tác liên kết" href="/danh-muc/hop-tac-lien-ket" subItems={[
+              { title: 'Hợp tác liên kết', href: '/danh-muc/hop-tac-lien-ket' },
+              { title: 'Đào tạo', href: '/danh-muc/hop-tac-lien-ket/dao-tao' }
             ]} onLinkClick={() => setMobileMenuOpen(false)} />
-            <MobileMenuItem title="Trao đổi" href="/category/trao-doi" subItems={[
-              { title: 'Ý kiến hội viên', href: '/category/trao-doi/y-kien-hoi-vien' },
-              { title: 'Giới thiệu', href: '/category/trao-doi/gioi-thieu' }
+            <MobileMenuItem title="Trao đổi" href="/danh-muc/trao-doi" subItems={[
+              { title: 'Ý kiến hội viên', href: '/danh-muc/trao-doi/y-kien-hoi-vien' },
+              { title: 'Giới thiệu', href: '/danh-muc/trao-doi/gioi-thieu' }
             ]} onLinkClick={() => setMobileMenuOpen(false)} />
-            <MobileMenuItem title="Thư viện" href="/category/thu-vien" subItems={[
-              { title: 'Thư viện ảnh', href: '/category/thu-vien/thu-vien-anh' },
-              { title: 'Thư viện Video', href: '/category/thu-vien/thu-vien-video' },
-              { title: 'E-magazine', href: '/category/thu-vien/e-magazine' },
-              { title: 'Báo in', href: '/category/thu-vien/bao-in' }
+            <MobileMenuItem title="Thư viện" href="/danh-muc/thu-vien" subItems={[
+              { title: 'Thư viện ảnh', href: '/danh-muc/thu-vien/thu-vien-anh' },
+              { title: 'Thư viện Video', href: '/danh-muc/thu-vien/thu-vien-video' },
+              { title: 'E-magazine', href: '/danh-muc/thu-vien/e-magazine' },
+              { title: 'Báo in', href: '/danh-muc/thu-vien/bao-in' }
             ]} onLinkClick={() => setMobileMenuOpen(false)} />
           </ul>
         </div>
@@ -211,41 +211,41 @@ export default function Header() {
                 </Link>
 
                 <ul className="main-menu">
-                  <DesktopMenuItem title="Tin tức" href="/category/tin-tuc" subItems={[
-                    { title: 'Chính trị', href: '/category/tin-tuc/chinh-tri' },
-                    { title: 'Kinh tế', href: '/category/tin-tuc/kinh-te' }
+                  <DesktopMenuItem title="Tin tức" href="/danh-muc/tin-tuc" subItems={[
+                    { title: 'Chính trị', href: '/danh-muc/tin-tuc/chinh-tri' },
+                    { title: 'Kinh tế', href: '/danh-muc/tin-tuc/kinh-te' }
                   ]} />
-                  <DesktopMenuItem title="Sức khỏe cộng đồng" href="/category/suc-khoe-cong-dong" subItems={[
-                    { title: 'Tư vấn', href: '/category/suc-khoe-cong-dong/tu-van' },
-                    { title: 'Sống khỏe', href: '/category/suc-khoe-cong-dong/song-khoe' }
-                  ]} />
-                  <li className="no-dropdown">
-                    <Link className="nowarp-text" href="/category/van-hoa">Văn hóa</Link>
-                  </li>
-                  <DesktopMenuItem title="Xã hội" href="/category/xa-hoi" subItems={[
-                    { title: 'Pháp luật', href: '/category/xa-hoi/phap-luat' },
-                    { title: 'An ninh xã hội', href: '/category/xa-hoi/an-ninh-xa-hoi' }
-                  ]} />
-                  <DesktopMenuItem title="Y học cổ truyền" href="/category/y-hoc-co-truyen" subItems={[
-                    { title: 'Các bài thuốc', href: '/category/y-hoc-co-truyen/cac-bai-thuoc' },
-                    { title: 'Chân dung nhân vật', href: '/category/y-hoc-co-truyen/chan-dung-nhan-vat' }
+                  <DesktopMenuItem title="Sức khỏe cộng đồng" href="/danh-muc/suc-khoe-cong-dong" subItems={[
+                    { title: 'Tư vấn', href: '/danh-muc/suc-khoe-cong-dong/tu-van' },
+                    { title: 'Sống khỏe', href: '/danh-muc/suc-khoe-cong-dong/song-khoe' }
                   ]} />
                   <li className="no-dropdown">
-                    <Link className="nowarp-text" href="/category/khoa-hoc-cong-nghe">Khoa học công nghệ</Link>
+                    <Link className="nowarp-text" href="/danh-muc/van-hoa">Văn hóa</Link>
                   </li>
-                  <DesktopMenuItem title="Hợp tác liên kết" href="/category/hop-tac-lien-ket" subItems={[
-                    { title: 'Hợp tác liên kết', href: '/category/hop-tac-lien-ket' },
-                    { title: 'Đào tạo', href: '/category/hop-tac-lien-ket/dao-tao' }
+                  <DesktopMenuItem title="Xã hội" href="/danh-muc/xa-hoi" subItems={[
+                    { title: 'Pháp luật', href: '/danh-muc/xa-hoi/phap-luat' },
+                    { title: 'An ninh xã hội', href: '/danh-muc/xa-hoi/an-ninh-xa-hoi' }
                   ]} />
-                  <DesktopMenuItem title="Trao đổi" href="/category/trao-doi" subItems={[
-                    { title: 'Ý kiến hội viên', href: '/category/trao-doi/y-kien-hoi-vien' },
-                    { title: 'Giới thiệu', href: '/category/trao-doi/gioi-thieu' }
+                  <DesktopMenuItem title="Y học cổ truyền" href="/danh-muc/y-hoc-co-truyen" subItems={[
+                    { title: 'Các bài thuốc', href: '/danh-muc/y-hoc-co-truyen/cac-bai-thuoc' },
+                    { title: 'Chân dung nhân vật', href: '/danh-muc/y-hoc-co-truyen/chan-dung-nhan-vat' }
                   ]} />
-                  <DesktopMenuItem title="Thư viện" href="/category/thu-vien" subItems={[
-                    { title: 'Thư viện ảnh', href: '/category/thu-vien/thu-vien-anh' },
-                    { title: 'Thư viện Video', href: '/category/thu-vien/thu-vien-video' },
-                    { title: 'E-magazine', href: '/category/thu-vien/e-magazine' },
-                    { title: 'Báo in', href: '/category/thu-vien/bao-in' }
+                  <li className="no-dropdown">
+                    <Link className="nowarp-text" href="/danh-muc/khoa-hoc-cong-nghe">Khoa học công nghệ</Link>
+                  </li>
+                  <DesktopMenuItem title="Hợp tác liên kết" href="/danh-muc/hop-tac-lien-ket" subItems={[
+                    { title: 'Hợp tác liên kết', href: '/danh-muc/hop-tac-lien-ket' },
+                    { title: 'Đào tạo', href: '/danh-muc/hop-tac-lien-ket/dao-tao' }
+                  ]} />
+                  <DesktopMenuItem title="Trao đổi" href="/danh-muc/trao-doi" subItems={[
+                    { title: 'Ý kiến hội viên', href: '/danh-muc/trao-doi/y-kien-hoi-vien' },
+                    { title: 'Giới thiệu', href: '/danh-muc/trao-doi/gioi-thieu' }
+                  ]} />
+                  <DesktopMenuItem title="Thư viện" href="/danh-muc/thu-vien" subItems={[
+                    { title: 'Thư viện ảnh', href: '/danh-muc/thu-vien/thu-vien-anh' },
+                    { title: 'Thư viện Video', href: '/danh-muc/thu-vien/thu-vien-video' },
+                    { title: 'E-magazine', href: '/danh-muc/thu-vien/e-magazine' },
+                    { title: 'Báo in', href: '/danh-muc/thu-vien/bao-in' }
                   ]} />
                 </ul>
               </nav>

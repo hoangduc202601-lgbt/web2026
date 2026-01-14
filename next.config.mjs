@@ -13,6 +13,15 @@ const nextConfig = {
     ],
     unoptimized: true,
   },
+  async redirects() {
+    return [
+      {
+        source: '/category/:slug*',
+        destination: '/danh-muc/:slug*',
+        permanent: true,
+      },
+    ]
+  },
 };
 
 export default nextConfig;

@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function CategoryPage({ params }: { params: Promise<{ slug: string[] }> }) {
   const { slug } = await params
-  // Parse slug: /category/[category] hoặc /category/[category]/[subCategory]
+  // Parse slug: /danh-muc/[category] hoặc /danh-muc/[category]/[subCategory]
   const category = slug?.[0] || ''
   const subCategory = slug?.[1] || ''
   
@@ -50,7 +50,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
             </Link>
             <span style={{ color: '#ccc', margin: '0 12px' }}>&gt;</span>
             <Link 
-              href={`/category/${category}`}
+              href={`/danh-muc/${category}`}
               className="hov-cl10 trans-03"
               style={{ color: '#999' }}
             >

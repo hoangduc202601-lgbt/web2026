@@ -60,20 +60,20 @@ export function getDisplayCategory(
 }
 
 /**
- * Tạo URL category từ category và subCategory
+ * Tạo URL chuyên mục từ category và subCategory
  * @param category - Category slug
  * @param subCategory - SubCategory slug (optional)
- * @returns URL category (vd: "/category/suc-khoe-cong-dong/tu-van")
+ * @returns URL chuyên mục (vd: "/danh-muc/suc-khoe-cong-dong/tu-van")
  */
 export function getCategoryUrl(
   category?: string | null,
   subCategory?: string | null
 ): string {
   if (subCategory && category) {
-    return `/category/${category}/${subCategory}`
+    return `/danh-muc/${category}/${subCategory}`
   }
   if (category) {
-    return `/category/${category}`
+    return `/danh-muc/${category}`
   }
   return '#'
 }

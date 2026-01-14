@@ -179,7 +179,7 @@ export default function CategoryContent({
         <div className="p-t-15 flex-wr-sb-c">
           <div>
             <span className="f1-s-3 cl6">Chuyên mục: </span>
-            <Link href={`/category/${category}`} className="f1-s-3 cl10 hov-cl10">
+            <Link href={`/danh-muc/${category}`} className="f1-s-3 cl10 hov-cl10">
               {categoryName}
             </Link>
             <span className="f1-s-3 cl6 m-l-20">Số bài viết: </span>
@@ -241,7 +241,7 @@ export default function CategoryContent({
                     <>
                       <span className="f1-s-3 m-rl-3">-</span>
                       <Link 
-                        href={`/category/${article.category}/${article.subCategory}`}
+                        href={`/danh-muc/${article.category}/${article.subCategory}`}
                         className="f1-s-3 cl10 hov-cl10"
                       >
                         {getCategoryName(article.subCategory)}

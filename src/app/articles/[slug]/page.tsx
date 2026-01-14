@@ -71,7 +71,7 @@ export default async function ArticleDetailPage({ params }: { params: Promise<{ 
             {article.category && (
               <>
                 <Link 
-                  href={`/category/${article.category}`}
+                  href={`/danh-muc/${article.category}`}
                   className="hov-cl10 trans-03"
                   style={{ color: '#999' }}
                 >
@@ -83,7 +83,7 @@ export default async function ArticleDetailPage({ params }: { params: Promise<{ 
             {article.subCategory && (
               <>
                 <Link 
-                  href={`/category/${article.category}/${article.subCategory}`}
+                  href={`/danh-muc/${article.category}/${article.subCategory}`}
                   className="hov-cl10 trans-03"
                   style={{ color: '#999' }}
                 >
@@ -110,11 +110,11 @@ export default async function ArticleDetailPage({ params }: { params: Promise<{ 
                 <div className="how2 how2-cl2 flex-s-c">
                   <h3 className="f1-m-2 cl3 tab01-title">
                     {article.subCategory ? (
-                      <Link href={`/category/${article.category}/${article.subCategory}`} className="cl3 hov-cl10">
+                    <Link href={`/danh-muc/${article.category}/${article.subCategory}`} className="cl3 hov-cl10">
                         {subCategoryName || 'Danh mục'}
                       </Link>
                     ) : article.category ? (
-                      <Link href={`/category/${article.category}`} className="cl3 hov-cl10">
+                    <Link href={`/danh-muc/${article.category}`} className="cl3 hov-cl10">
                         {categoryName || 'Chuyên mục'}
                       </Link>
                     ) : 'Bài viết'}
@@ -124,7 +124,7 @@ export default async function ArticleDetailPage({ params }: { params: Promise<{ 
                   {article.category && (
                     <>
                       <span className="f1-s-3 cl6">Chuyên mục: </span>
-                      <Link href={`/category/${article.category}`} className="f1-s-3 cl10 hov-cl10">
+                      <Link href={`/danh-muc/${article.category}`} className="f1-s-3 cl10 hov-cl10">
                         {categoryName}
                       </Link>
                     </>
@@ -132,7 +132,7 @@ export default async function ArticleDetailPage({ params }: { params: Promise<{ 
                   {article.subCategory && (
                     <>
                       <span className="f1-s-3 cl6 m-l-20">Danh mục: </span>
-                      <Link href={`/category/${article.category}/${article.subCategory}`} className="f1-s-3 cl10 hov-cl10">
+                      <Link href={`/danh-muc/${article.category}/${article.subCategory}`} className="f1-s-3 cl10 hov-cl10">
                         {subCategoryName}
                       </Link>
                     </>

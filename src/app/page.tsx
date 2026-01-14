@@ -391,10 +391,10 @@ function NewsTab() {
         <Link 
           href={
             activeTab === 'tab1-1' 
-              ? '/category/tin-tuc' 
+              ? '/danh-muc/tin-tuc' 
               : activeTab === 'tab1-2' 
-              ? '/category/tin-tuc/chinh-tri' 
-              : '/category/tin-tuc/kinh-te'
+              ? '/danh-muc/tin-tuc/chinh-tri' 
+              : '/danh-muc/tin-tuc/kinh-te'
           }
           className="tab01-link f1-s-1 cl9 hov-cl10 trans-03"
         >
@@ -471,7 +471,7 @@ function NewsTab() {
                   image={politicsArticles[0]?.cover || '/images/post-05.jpg'}
                   title={politicsArticles[0]?.title || ''}
                   category="Chính trị"
-                  categoryUrl="/category/tin-tuc/chinh-tri"
+                  categoryUrl="/danh-muc/tin-tuc/chinh-tri"
                   date={politicsArticles[0]?.createdAt ? formatDate(politicsArticles[0].createdAt) : ''}
                   slug={politicsArticles[0]?.slug}
                   large
@@ -484,7 +484,7 @@ function NewsTab() {
                     image={article.cover || '/images/post-06.jpg'}
                     title={article.title}
                     category="Chính trị"
-                    categoryUrl="/category/tin-tuc/chinh-tri"
+                    categoryUrl="/danh-muc/tin-tuc/chinh-tri"
                     date={formatDate(article.createdAt)}
                     slug={article.slug}
                   />
@@ -518,7 +518,7 @@ function NewsTab() {
                   image={economyArticles[0]?.cover || '/images/post-07.jpg'}
                   title={economyArticles[0]?.title || ''}
                   category="Kinh tế"
-                  categoryUrl="/category/tin-tuc/kinh-te"
+                  categoryUrl="/danh-muc/tin-tuc/kinh-te"
                   date={economyArticles[0]?.createdAt ? formatDate(economyArticles[0].createdAt) : ''}
                   slug={economyArticles[0]?.slug}
                   large
@@ -531,7 +531,7 @@ function NewsTab() {
                     image={article.cover || '/images/post-08.jpg'}
                     title={article.title}
                     category="Kinh tế"
-                    categoryUrl="/category/tin-tuc/kinh-te"
+                    categoryUrl="/danh-muc/tin-tuc/kinh-te"
                     date={formatDate(article.createdAt)}
                     slug={article.slug}
                   />
@@ -727,10 +727,10 @@ function EconomyTab() {
         <Link 
           href={
             activeTab === 'tab2-1' 
-              ? '/category/suc-khoe-cong-dong' 
+              ? '/danh-muc/suc-khoe-cong-dong' 
               : activeTab === 'tab2-2' 
-              ? '/category/suc-khoe-cong-dong/tu-van' 
-              : '/category/suc-khoe-cong-dong/song-khoe'
+              ? '/danh-muc/suc-khoe-cong-dong/tu-van' 
+              : '/danh-muc/suc-khoe-cong-dong/song-khoe'
           }
           className="tab01-link f1-s-1 cl9 hov-cl10 trans-03"
         >
@@ -807,7 +807,7 @@ function EconomyTab() {
                   image={tuVanArticles[0]?.cover || '/images/post-10.jpg'}
                   title={tuVanArticles[0]?.title || ''}
                   category="Tư vấn"
-                  categoryUrl="/category/suc-khoe-cong-dong/tu-van"
+                  categoryUrl="/danh-muc/suc-khoe-cong-dong/tu-van"
                   date={tuVanArticles[0]?.createdAt ? formatDate(tuVanArticles[0].createdAt) : ''}
                   slug={tuVanArticles[0]?.slug}
                   large
@@ -820,7 +820,7 @@ function EconomyTab() {
                     image={article.cover || '/images/post-11.jpg'}
                     title={article.title}
                     category="Tư vấn"
-                    categoryUrl="/category/suc-khoe-cong-dong/tu-van"
+                    categoryUrl="/danh-muc/suc-khoe-cong-dong/tu-van"
                     date={formatDate(article.createdAt)}
                     slug={article.slug}
                   />
@@ -854,7 +854,7 @@ function EconomyTab() {
                   image={songKhoeArticles[0]?.cover || '/images/post-10.jpg'}
                   title={songKhoeArticles[0]?.title || ''}
                   category="Sống khỏe"
-                  categoryUrl="/category/suc-khoe-cong-dong/song-khoe"
+                  categoryUrl="/danh-muc/suc-khoe-cong-dong/song-khoe"
                   date={songKhoeArticles[0]?.createdAt ? formatDate(songKhoeArticles[0].createdAt) : ''}
                   slug={songKhoeArticles[0]?.slug}
                   large
@@ -867,7 +867,7 @@ function EconomyTab() {
                     image={article.cover || '/images/post-11.jpg'}
                     title={article.title}
                     category="Sống khỏe"
-                    categoryUrl="/category/suc-khoe-cong-dong/song-khoe"
+                    categoryUrl="/danh-muc/suc-khoe-cong-dong/song-khoe"
                     date={formatDate(article.createdAt)}
                     slug={article.slug}
                   />
@@ -1063,10 +1063,10 @@ function CultureTab() {
         <Link 
           href={
             activeTab === 'tab3-1' 
-              ? '/category/xa-hoi' 
+              ? '/danh-muc/xa-hoi' 
               : activeTab === 'tab3-2' 
-              ? '/category/xa-hoi/phap-luat' 
-              : '/category/xa-hoi/an-ninh-xa-hoi'
+              ? '/danh-muc/xa-hoi/phap-luat' 
+              : '/danh-muc/xa-hoi/an-ninh-xa-hoi'
           }
           className="tab01-link f1-s-1 cl9 hov-cl10 trans-03"
         >
@@ -1143,7 +1143,7 @@ function CultureTab() {
                   image={phapLuatArticles[0]?.cover || '/images/post-14.jpg'}
                   title={phapLuatArticles[0]?.title || ''}
                   category="Pháp luật"
-                  categoryUrl="/category/xa-hoi/phap-luat"
+                  categoryUrl="/danh-muc/xa-hoi/phap-luat"
                   date={phapLuatArticles[0]?.createdAt ? formatDate(phapLuatArticles[0].createdAt) : ''}
                   slug={phapLuatArticles[0]?.slug}
                   large
@@ -1156,7 +1156,7 @@ function CultureTab() {
                     image={article.cover || '/images/post-15.jpg'}
                     title={article.title}
                     category="Pháp luật"
-                    categoryUrl="/category/xa-hoi/phap-luat"
+                    categoryUrl="/danh-muc/xa-hoi/phap-luat"
                     date={formatDate(article.createdAt)}
                     slug={article.slug}
                   />
@@ -1190,7 +1190,7 @@ function CultureTab() {
                   image={anNinhXaHoiArticles[0]?.cover || '/images/post-14.jpg'}
                   title={anNinhXaHoiArticles[0]?.title || ''}
                   category="An ninh xã hội"
-                  categoryUrl="/category/xa-hoi/an-ninh-xa-hoi"
+                  categoryUrl="/danh-muc/xa-hoi/an-ninh-xa-hoi"
                   date={anNinhXaHoiArticles[0]?.createdAt ? formatDate(anNinhXaHoiArticles[0].createdAt) : ''}
                   slug={anNinhXaHoiArticles[0]?.slug}
                   large
@@ -1203,7 +1203,7 @@ function CultureTab() {
                     image={article.cover || '/images/post-15.jpg'}
                     title={article.title}
                     category="An ninh xã hội"
-                    categoryUrl="/category/xa-hoi/an-ninh-xa-hoi"
+                    categoryUrl="/danh-muc/xa-hoi/an-ninh-xa-hoi"
                     date={formatDate(article.createdAt)}
                     slug={article.slug}
                   />
